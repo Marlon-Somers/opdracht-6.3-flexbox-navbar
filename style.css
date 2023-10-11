@@ -1,11 +1,31 @@
-#flexbox-container{
+#container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+.center{
+    flex-grow: 1;
+  flex-shrink: 0;
+  text-align: center;
 }
-    
-.logo{
-    top: 0;
-    right: 0;
-    width:50vw;
-    height:100vh;
+
+.left{  
+    flex-basis: 25%;
 }
+
+.center {
+    text-align: center;
+
+}
+
+.right{ 
+    flex-basis: 25%;
+}
+
+.login{ 
+    text-align: end;
+}
+  
+  
+  
